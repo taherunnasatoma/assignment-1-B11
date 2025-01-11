@@ -260,6 +260,10 @@ main{
 }
 
 /* Donate style */
+.donate-section
+{
+    text-align: center;
+}
 .donate-heading
 {
     text-align: center;
@@ -312,6 +316,7 @@ main{
     border-radius: 8px;
     max-width: 1280px;
     margin: 80px 160px 80px 160px;
+    padding: 100px 80px;
 }
 
 .sub-news
@@ -321,5 +326,9 @@ main{
 }
 .sub-email
 {
-    
+    padding: 26px 13px;
+    color:rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    border-radius: 5px;
 }
+
