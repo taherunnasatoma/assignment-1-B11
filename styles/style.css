@@ -8,12 +8,17 @@
 {
     background-color: #F5F5F5;
 }
+
+
 /* nav styles */
 
 nav
 {
     display: flex;
     justify-content: space-between;
+    
+    margin: 20px 160px;
+
 }
 .nav-title
 {
@@ -26,10 +31,53 @@ nav
     color:#006A50;
     font-size: 18px;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 5px 10px;
     border: 2px solid #006A50;;
     border-radius: 8px;
 
 
 
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* banner styles */
+
+.banner
+{
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 100px 80px;
+    margin: 20px 160px 80px 160px;
+}
+
+.banner-heading{
+
+    color:rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+
+}
+
+.banner-title
+{
+    color:#0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.ban-btn
+{
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 15px;
 }
