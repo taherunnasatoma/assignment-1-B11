@@ -3,12 +3,36 @@
 
 
 /*  Shared styles */
-
-.primary-color
+.vis1
 {
-    background-color: #F5F5F5;
+    background-color: rgba(84, 144, 245, 0.2);
 }
 
+.vis2
+{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vis3
+{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vis-btn1{
+    background-color: rgba(84, 144, 245, 1);
+
+}
+
+.vis-btn2{
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.vis-btn3{
+    background-color: rgba(255, 194, 57, 1);
+}
+body{
+    background-color: #F5F5F5;
+}
 
 /* nav styles */
 
@@ -39,10 +63,6 @@ nav
 
 }
 
-main{
-    max-width: 1280px;
-    margin: 0 auto;
-}
 
 /* banner styles */
 
@@ -86,6 +106,79 @@ main{
 
 .ban-btn:hover {
     background-color: #004731; 
+    color: #C6E4D6; 
+    cursor: pointer; 
+}
+
+
+
+main{
+    margin: 80px 160px;
+}
+
+/* pillar section */
+
+.pill-heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+
+.pill-container
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.pill
+{
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+
+.pill-head
+{
+    font-size: 20;
+    font-weight: bold;
+}
+
+.pill-description
+{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision styles */
+
+.vision-container
+{
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+}
+
+.vision-item
+{
+    padding: 32px 32px;
+    border-radius: 16px;;
+}
+
+.vis-btn
+{
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 20px 11px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.vis-btn:hover {
+    background-color: #002047; 
     color: #C6E4D6; 
     cursor: pointer; 
 }
